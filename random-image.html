@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- heading bar-->
+	<header>
+	</header>
+<head>
+	<title>GrantM.ioe</title>
+	<!-- No href external links to css or js-->
+	<link rel="stylesheet" href="css/custom.css">
+		<style>
+		#if-location {
+			position: absolute; left:10px; top:200px;
+			width:800px;
+			height:500px;
+			}
+		</style>
+
+</head>
+<body>
+<!-- menu -->
+<a href="https://sites.google.com/a/tritechsc.org/grantm/"class="slink" >google site</a>
+<a href="index.php"class="slink" >home</a>
+<a href="downloads.html"class="menu" >downloads</a>
+<a href=""class="slink" >phpmyadmin</a>
+<a href="logs.html"class="menu" >logs</a>
+<a href="contact.html"class="slink" >contact</a>
+<a href=""class="menu" >phpcode</a>
+<a href="javascript.html"class="slink" >javascript</a>
+<a href="admin.html"class="menu" >admin</a>
+<a href="color.html"class="slink" >colors</a>
+<a href="html.html"class="menu" >html</a>
+<head> <title> Random Image</title></head>
+<body>
+RANDOM <br />
+<script type="text/javascript">
+var images = [];
+index = 0;
+
+images[0] = "images/random_image/image0.png";
+images[1] = "images/random_image/image1.png";
+images[2] = "images/random_image/image2.png";
+images[3] = "images/random_image/image3.png";
+images[4] = "images/random_image/image4.png";
+images[5] = "images/random_image/image5.png";
+images[6] = "images/random_image/image6.png";
+theimage = Math.floor(Math.random() * images.length);
+document.write("<img src= "+images[theimage]+ ">");
+
+</script>
+<hr />
+</body>
+</html>
